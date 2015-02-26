@@ -1,0 +1,8 @@
+{application, amrd, [
+	{description, "Asterisk Manager REST Demo"},
+	{vsn, "1"},
+	{registered, []},
+	{applications, [kernel, stdlib]},
+	{mod, {amrd_app, []}},
+	{env, []}
+]}.
